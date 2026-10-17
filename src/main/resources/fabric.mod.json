@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "boatperspective",
+  "version": "1.0.0",
+  "name": "Boat Perspective",
+  "description": "Steers your boat dynamically based on your camera gaze direction.",
+  "authors": [
+    "ProHacker888"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/b-p"
+  },
+  "license": "MIT",
+  "icon": "assets/boatperspective/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.bp.client.BoatPerspectiveClient"
+    ]
+  },
+  "mixins": [
+    "boat-perspective.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

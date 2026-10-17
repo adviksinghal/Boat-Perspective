@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.bp.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"ClientPlayerEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
